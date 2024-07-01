@@ -1,13 +1,18 @@
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+
 function Index() {
   return (
-    <main className="flex flex-1">
-      {/* Update with components here - default to put new layout sections as separate components in the components folder, and import them here */}
-      <div>
-        <h1 className="text-3xl text-center">Your Blank Canvas</h1>
-        <p className="text-center">
-          Chat with the agent to start making edits.
-        </p>
-      </div>
+    <main className="flex flex-1 flex-col items-center justify-center p-4">
+      <Card className="w-full max-w-md">
+        <CardHeader>
+          <CardTitle className="text-center">Welcome to Class Attendance Tool</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <p className="text-center">
+            Use the sidebar to navigate through the features.
+          </p>
+        </CardContent>
+      </Card>
     </main>
   );
 }
