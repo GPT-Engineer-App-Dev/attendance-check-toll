@@ -4,7 +4,8 @@ import Index from "./pages/Index.jsx";
 import MarkAttendance from "./pages/MarkAttendance.jsx";
 import AttendanceReports from "./pages/AttendanceReports.jsx";
 import Notifications from "./pages/Notifications.jsx";
-
+import { TooltipProvider } from "@/components/ui/tooltip";
+import { Toaster } from "@/components/ui/toaster"; // Corrected import
 import SharedLayout from "./components/layouts/sidebar.jsx"; // Updated layout
 
 const queryClient = new QueryClient();
